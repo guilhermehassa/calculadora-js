@@ -1,0 +1,102 @@
+:root{
+  --preto-escuro:rgb(0, 0, 0);
+  --preto-claro:rgb(65, 65, 65);
+  --cinza-escuro:#808080;
+  --cinza-claro:#c4c4c4;
+  --branco:#fff;
+
+
+  --fonte-padrao:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  --fonte-icones:'Icones';
+
+  --altura-header:8rem;
+  --altura-menu:1.5rem;
+  --altura-footer:1.2rem;
+}
+  
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  border-spacing: unset;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fonte-padrao);
+  height:auto;
+  min-height: 100vh;
+}
+
+.content{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  align-items:center;
+  
+  background-color: var(--marrom);
+}
+
+main{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+
+}
+
+.titulo{
+  
+  width: 100%;
+  height: fit-content;
+  padding: 0.25rem;
+  
+}
+
+  .titulo__texto{
+    text-align: center;
+
+    font-size: 1.5rem;
+    color: var(--preto);
+
+  }
+
+
+.invisivel{
+  display: none;
+  opacity: 0;
+}
+
+.scripts{
+  display: none;
+}
+
+/* MOBILE */
+@media screen and (min-width:0){
+  
+}/* MOBILE - FIM */
+
+
+/* TABLET */
+@media screen and (min-width: 769px){
+  
+}/* TABLET - FIM */
+
+
+/* 1024 */
+@media screen and (min-width: 1023px){
+  
+}/* 1024 - FIM */
+
+
+/* 1200 */
+@media screen and (min-width: 1200px){
+  
+}/* 1200 - FIM */
